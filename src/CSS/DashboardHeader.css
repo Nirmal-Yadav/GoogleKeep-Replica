@@ -1,0 +1,254 @@
+.dashboardheader1-main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  height: 10%;
+  width: 100%;
+  position: sticky;
+  background: white;
+}
+.header1-icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.menu1 {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu1-img {
+  height: 35px;
+}
+.keep1 {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keep1-img {
+  height: 45px;
+}
+.keep2-main {
+  display: flex;
+  align-items: center;
+}
+.keep2 {
+  font-size: x-large;
+  text-decoration-line: none;
+}
+.search1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 850px;
+  height: 100%;
+}
+.search1-contain {
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  width: 600px;
+  background-color: lightgray;
+}
+.gb_8e {
+  outline: none;
+  border: none;
+  height: 90%;
+  width: 550px;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+.search1-img {
+  height: 40px;
+  width: 40px;
+}
+.search12 {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 45px;
+}
+.refresh1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+}
+.refresh1-img {
+  height: 35px;
+  width: 35px;
+}
+.gridview1 {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gridview1-img {
+  width: 35px;
+}
+.setting1 {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting1-img {
+  height: 35px;
+  width: 35px;
+}
+.apps1 {
+  width: 130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.apps1-img {
+  height: 30px;
+  width: 30px;
+}
+
+.profile1 {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile1-img {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .dashboardheader1-main {
+    /* background-color: aqua; */
+    height: 10vh;
+    width: 100vw;
+  }
+  .header1-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  .menu1-img {
+    height: 15px;
+  }
+  .keep1 {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .keep1-img {
+    height: 18px;
+  }
+
+  .keep2 {
+    font-size: 15px;
+    text-decoration-line: none;
+  }
+
+  .search1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 160px;
+    height: 100%;
+  }
+  .search1-contain {
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 140px;
+    background-color: lightgray;
+  }
+
+  .gb_8e {
+    outline: none;
+    border: none;
+    height: 90%;
+    width: 100px;
+    border-radius: 20px;
+    background-color: lightgray;
+  }
+  .search1-img {
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 35px;
+  }
+  .search12 {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 35px;
+  }
+  .refresh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+  }
+  .refresh1-img {
+    height: 15px;
+    width: 15px;
+  }
+  .gridview1 {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gridview1-img {
+    width: 15px;
+  }
+  .setting1 {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .setting1-img {
+    height: 15px;
+    width: 15px;
+  }
+  .apps1 {
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .apps1-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .profile1 {
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile1-img {
+    height: 25px;
+    width: 25px;
+  }
+}

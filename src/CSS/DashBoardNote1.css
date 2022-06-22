@@ -1,0 +1,86 @@
+.DashboardNote1-main {
+  /* border: 2px solid green; */
+  height: 15vh;
+  width: 40vw;
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+  top: 30px;
+}
+.DashboardNote1-container {
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dashboardNote1-logo {
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.checkmark1 {
+  height: 17px;
+}
+.checkmark1-img {
+  border: 1px solid black;
+  height: 25px;
+}
+.brush1 {
+  height: 17px;
+}
+.brush1-img {
+  height: 25px;
+}
+.gallery1 {
+  height: 17px;
+}
+.gallery1-img {
+  height: 25px;
+}
+
+@media screen and (max-width: 400px) {
+  .DashboardNote1-main {
+    /* border: 2px solid green; */
+    height: 15vh;
+    width: 70vw;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+  }
+  .DashboardNote1-container {
+    /* border: 2px solid orange; */
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .dashboardNote1-logo {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  .checkmark1 {
+    /* border: 2px solid blue; */
+    height: 17px;
+  }
+  .checkmark1-img {
+    border: 1px solid black;
+    height: 20px;
+  }
+  .brush1 {
+    height: 17px;
+  }
+  .brush1-img {
+    height: 25px;
+  }
+  .gallery1 {
+    height: 17px;
+  }
+  .gallery1-img {
+    height: 25px;
+  }
+}

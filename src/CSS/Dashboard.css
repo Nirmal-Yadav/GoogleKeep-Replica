@@ -1,0 +1,27 @@
+.dashboard1-main {
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.takenote3 {
+  /* border: 2px solid red; */
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .takenote3 {
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    justify-content: space-between;
+  }
+}

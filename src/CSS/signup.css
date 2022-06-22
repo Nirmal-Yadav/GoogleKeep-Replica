@@ -1,0 +1,164 @@
+.main1{
+    
+    height: 99vh;
+    width: 99.5vw;
+    
+}
+.main1-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.body1{
+   border: 1px solid grey;
+    width: 45%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1{
+    
+    width: 51%;
+    height: 4%;
+}
+
+.body1-left{
+   /* border: 2px solid red; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body1-right{
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.google1{
+    
+    height: 12%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+.a{
+   
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.g{
+   color: blue;
+}
+.o{
+    color: red;
+}
+.o1{
+    color:yellow;
+}
+.l{
+    color: green;
+}
+.create1{
+   
+    font-size: 20px;
+    height: 12%;
+    width: 85%;
+    display: flex;
+}
+.name1{
+   /* border: 2px solid blue; */
+    height: 11%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#demo-helper-text-aligned{
+   /* border: 2px solid red; */
+    height: 1px;
+    width: 350px;
+}
+
+.email1{
+  /* border: 2px solid red; */
+    height: 13%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.current1-email{
+   /* border: 2px solid red; */
+    height: 7% ;
+    width: 85%;
+    font-size: 13px;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+.password1{
+   /* border: 2px solid red; */
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 85%;
+}
+.min1-max{
+  
+    width: 85%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#outlined-password-input{
+   height: 2px !important;
+   width: 40px !important;
+}
+
+#fullWidth1{
+    height: 3px !important;
+    width: 145px !important;
+}
+.show1-password{
+  
+    width: 85%;
+    height: 8%;
+    display: flex;
+}
+.sign1-next{
+    height: 9%;
+  
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.signin1{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.oneaccount1{
+   
+    width: 70%;
+    font-size: 14px;
+}
